@@ -11,6 +11,7 @@ html {
 }
 
 body {
+    padding-top: 80px;
     font-family: 'Urbanist', sans-serif;
 }
 
@@ -23,4 +24,39 @@ body {
 
 section {
     padding: 50px 0;
+}
+
+.hover-link {
+    color: theme('colors.smallTextColor');
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .hover-link {
+        position: relative;
+        text-decoration: none;
+        border-bottom: 2px solid transparent; /* initial border setup */
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hover-link:hover {
+        font-weight: 700;
+    }
+
+    .hover-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -3px;
+        left: 50%;
+        background-color: theme('colors.smallTextColor');
+        transition: all 0.3s ease-in-out;
+        pointer-events: none; /* This ensures that the pseudo-element does not interfere with clicking the link */
+    }
+
+    .hover-link:hover::after {
+        width: 100%;
+        left: 0;
+    }
 }
