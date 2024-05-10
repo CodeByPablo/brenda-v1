@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/brenda-v1/static/css/main.be51d1bb.css",
+    "main.js": "/brenda-v1/static/js/main.91e176f6.js",
+    "static/media/remixicon.svg?t=1708865856766": "/brenda-v1/static/media/remixicon.7735fab8dbf8ff78afe9.svg",
+    "static/media/remixicon.eot?t=1708865856766": "/brenda-v1/static/media/remixicon.8542c1bb279bcd77063a.eot",
+    "static/media/remixicon.ttf?t=1708865856766": "/brenda-v1/static/media/remixicon.4c942de19d980993f612.ttf",
+    "static/media/hero.jpg": "/brenda-v1/static/media/hero.4032cf4ce3a80037caa0.jpg",
+    "static/media/remixicon.woff?t=1708865856766": "/brenda-v1/static/media/remixicon.28ceff39ee3e17dc99db.woff",
+    "static/media/remixicon.woff2?t=1708865856766": "/brenda-v1/static/media/remixicon.39f4def56d0e8712909a.woff2",
+    "index.html": "/brenda-v1/index.html",
+    "main.be51d1bb.css.map": "/brenda-v1/static/css/main.be51d1bb.css.map",
+    "main.91e176f6.js.map": "/brenda-v1/static/js/main.91e176f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be51d1bb.css",
+    "static/js/main.91e176f6.js"
+  ]
+}
